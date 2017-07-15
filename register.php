@@ -67,7 +67,7 @@
 					if ($query_run2) {
 						echo "<div class='msg' id='sucmsg'>User registered!</div><br>";
 					} else {
-						echo "Error!<br>";
+						echo "<div class='msg' id='errmsg'>Error in Registration!</div><br>";
 					}
 				}
 			}
