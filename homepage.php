@@ -13,7 +13,7 @@
 <div class="wrapper">
 	<h1 class="greet">Weclome <?php echo $_SESSION["uname"];?></h1>
 
-	<form action="home.php" method="POST"><input type="submit" name="out" value="Log Out" class="btn" id="outbtn" ></form>
+	<form action="homepage.php" method="POST"><input type="submit" name="out" value="Log Out" class="btn" id="outbtn" ></form>
 </div>
 
 	<?php
